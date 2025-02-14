@@ -65,4 +65,6 @@ public class SoldadoService {
     public List<Soldado> getDocumentacionFaltante() {
         return soldadoRepository.findByDocumentacionFaltante();
     }
+
+
 }
