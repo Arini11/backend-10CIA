@@ -38,7 +38,10 @@ public class SoldadoService {
             logRepository.save(new Log(
                     UUID.randomUUID().toString(),
                     fechaFormateada,
-                    soldadoU.getEmpleoAbreviado() + soldadoU.getNombre() + soldadoU.getApellido1() + soldadoU.getApellido2()
+                    soldadoU.getEmpleoAbreviado() + " " +
+                            soldadoU.getNombre() + " " +
+                            soldadoU.getApellido1() + " " +
+                            soldadoU.getApellido2()
                     )
             );
             return soldadoRepository.save(soldadoU);

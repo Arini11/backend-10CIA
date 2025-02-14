@@ -51,6 +51,7 @@ public class Soldado {
     private String fechaCaducidadTarjetaSanitariaEuropea;
     private String fechaCaducidadPermisoConducirCivil;
     private String fechaCaducidadPermisoMilitarConducir;
+    private String documentacionEnTramite;
     // Carnets
     private List<Carnet> listaCarnets;
     // Recos, TGCF...
